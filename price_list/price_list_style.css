@@ -1,0 +1,218 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 10px;
+    font-family: 'Tiro Gurmukhi', serif;
+    background-image: url(/images/sample.jpg);
+    background-position: top ;
+    background-size: cover;
+    
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+.container
+{   
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/*HEADER */
+.nav-bar
+{max-width: 100%;
+margin: 0 auto;
+    height: 50px;
+
+
+}
+.nav
+{
+    position: fixed;
+    background-color: rgba(0,0,0, 0.6);
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    z-index: 2;
+}
+.nav .nav-bar
+{display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.nav ul
+{   display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav a
+{color: white;
+    text-decoration: none;
+    padding: 7px 15px;
+    transition: all 0.3s ease-in-out;
+    font-size: 2rem;
+    font-weight: 2.5rem;
+    text-transform: uppercase;
+}
+.nav a:hover
+{
+    color: pink;
+}
+
+
+/*END OF HEADER */
+
+/* ITEMS */
+
+#services{
+    
+    
+    position: relative;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    
+    
+}
+
+
+#services .service
+{
+    flex-direction: column;
+    text-align: center;
+    max-width: 100px;
+    margin: 0 auto;
+    padding: 50px 0;
+    
+    
+}
+
+.section_title
+{   font-size: 4rem;
+    font-weight: 200;
+    color: rgb(181, 88, 103);
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    
+    
+   
+    
+    
+}
+
+#services .service_bottom
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+#services .service_item 
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: content;
+    padding: 55px;
+    color: black;
+    float: left;
+    border-color: aliceblue;
+}
+
+
+ 
+#services .item1 a
+{
+    height:550px ;
+    width: auto;
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 5px 5px 20px black;
+    flex-direction: column;
+    padding: 200px;
+    color: black;
+    border: 5px;
+    border-color: rgb(221, 194, 160);
+    border-style: solid;
+    align-items: center;
+    background-image: url(/images/dress.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+    transition: .5s ease-in-out;
+      
+}
+
+#services .item1 a:hover
+{
+    transform: scale(1.05);
+}
+
+#services .service_item h1
+{   text-transform: capitalize;
+    padding-top: 2.5%;
+    padding-bottom: 0%;
+font-size: 2rem;
+
+    color: rgb(169, 37, 59);
+
+}
+
+
+#services .item2 a
+{
+    height:550px ;
+    width: auto;
+    flex-basis: 80%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    box-shadow: 5px 5px 20px black;
+    
+    padding: 200px;
+    color: white;
+    border: 5px;
+    border-color: rgb(221, 194, 160);
+    border-style: solid;
+    align-items: center;
+    background-image: url(/images/Swimsuits.jpg);
+    background-size: contain;
+    background-position: center;
+    margin: 10px;
+    transition: .5s ease-in-out;
+}
+#services .item2 a:hover
+{
+    transform: scale(1.05);
+}
+/*End of ITEMS*/
