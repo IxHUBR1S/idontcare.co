@@ -242,7 +242,13 @@ z-index: 1;
     background-size: cover;
     background-position: center;
     margin: 10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 20px black;
       
+}
+#services .item1 a:hover
+{   transform: scale(1.1);
+
 }
 
 #services .service_item h1
@@ -274,8 +280,15 @@ font-size: 2rem;
     background-size: cover;
     background-position: center;
     margin: 10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 20px black;
     
 }
+#services .item2 a:hover
+{   transform: scale(1.1);
+
+}
+
 
 #services .item3 a
 {
@@ -295,8 +308,13 @@ font-size: 2rem;
     background-size: cover;
     background-position: center;
     margin: 10px;
+    transition: 0.5s ease-in-out;
+    box-shadow: 5px 5px 20px black;
 }
+#services .item3 a:hover
+{   transform: scale(1.1);
 
+}
 
 
 
