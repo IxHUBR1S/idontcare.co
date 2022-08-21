@@ -9,7 +9,7 @@ html
 {
     font-size: 10px;
     font-family: 'Tiro Gurmukhi', serif;
-    background-image: url(/images/sample.jpg);
+    background-image: url(./images/sample.jpg);
     background-position: top ;
     background-size: cover;
     
@@ -165,7 +165,7 @@ margin: 0 auto;
     border-color: rgb(221, 194, 160);
     border-style: solid;
     align-items: center;
-    background-image: url(/images/dress.jpg);
+    background-image: url(./images/dress.jpg);
     background-size: contain;
     background-position: center;
     margin: 10px;
@@ -205,7 +205,7 @@ font-size: 2rem;
     border-color: rgb(221, 194, 160);
     border-style: solid;
     align-items: center;
-    background-image: url(/images/Swimsuits.jpg);
+    background-image: url(./images/Swimsuits.jpg);
     background-size: contain;
     background-position: center;
     margin: 10px;
